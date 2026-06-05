@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Current — a groovebox that starts with the scene | clectric.audio</title>
+  <meta name="description" content="Current is a groovebox that starts with the scene, not the sound. Every crate represents a moment in music history, and the companion app Soundings maps how it all connects." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Current — a groovebox that starts with the scene" />
+  <meta property="og:description" content="Most grooveboxes start with the sound. Current starts with the scene. A groovebox for more than the dancefloor." />
+  <meta property="og:url" content="https://clectric.audio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://clectric.audio/" />
+
+  <!-- Fonts: New Rocker (brand wordmarks), Fraunces (display), Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=New+Rocker&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <!-- ============================== NAV ============================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="/" aria-label="Current by clectric.audio">
+        <span class="brand nav__brand-mark">Current</span>
+        <span class="brand nav__brand-by">by clectric.audio</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a class="appstore-badge nav__badge" href="#get" data-appstore aria-label="Download Current on the Apple App Store">
+          <img src="/assets/img/app-store-badge.svg" alt="Download on the App Store" width="102" height="34" />
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <h1 class="sr-only">Current — a groovebox that starts with the scene, by clectric.audio</h1>
+        <p class="eyebrow reveal">A new kind of groovebox</p>
+        <h2 class="section__title reveal">We start with the scene.</h2>
+        <p class="hero__sub reveal">
+          Most grooveboxes start with the sound. <span class="brand">Current</span> starts with the
+          scene — and it's built for far more than the dancefloor.
+        </p>
+        <p class="hero__stat reveal">Play the sounds on <span class="brand">Current</span>. Go deep with <span class="brand">Soundings</span>.</p>
+      </div>
+    </section>
+
+    <!-- ============================== THESIS ============================== -->
+    <section class="section thesis" id="thesis">
+      <div class="container">
+        <p class="eyebrow reveal">Scenes, not sounds</p>
+        <h2 class="section__title reveal">We represent the scene.</h2>
+        <p class="section__lead reveal">
+          No one can hand you the original machines, or the rooms they were recorded in.
+          <span class="brand">Current</span> gets you as close to a scene as anything can — its
+          textures, its techniques, its feel.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================== SOUNDINGS ============================== -->
+    <section class="section soundings" id="soundings">
+      <div class="container">
+        <p class="eyebrow reveal">Meet Soundings</p>
+        <h2 class="section__title reveal">We go deep into the scene.</h2>
+        <p class="section__lead reveal">
+          <span class="brand">Current</span> plays the sounds. <span class="brand">Soundings</span> allows
+          you to explore the scene — go as deep into a scene as you like. Tap a node and trace the connections.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="graph reveal" id="graph" aria-label="Interactive connection graph. Select a node to highlight its connections.">
+          <svg class="graph__svg" id="graph-svg" role="img" aria-hidden="true"></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== WHY DIFFERENT ============================== -->
+    <section class="section why" id="why">
+      <div class="container">
+        <p class="eyebrow reveal">Why it's different</p>
+        <h2 class="section__title reveal">A different kind of groovebox.</h2>
+        <div class="why__grid">
+          <article class="why__tile">
+            <h3>Scenes, not sounds</h3>
+            <p>Start from the moment in music, not the waveform.</p>
+          </article>
+          <article class="why__tile">
+            <h3>Represented, not recreated</h3>
+            <p>As close to a scene as anything short of a time machine.</p>
+          </article>
+          <article class="why__tile">
+            <h3>A portal, not a manual</h3>
+            <p><span class="brand">Soundings</span> lets you go deep into the scene behind every sound.</p>
+          </article>
+          <article class="why__tile">
+            <h3>Beyond the dancefloor</h3>
+            <p>Synth pioneers, dub, bedroom pop — not just club music.</p>
+          </article>
+          <article class="why__tile">
+            <h3>Constraint as a feature</h3>
+            <p>Limits sharpen focus. Each crate is its own world.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== WHO IT'S FOR ============================== -->
+    <section class="section audience" id="audience">
+      <div class="container">
+        <p class="eyebrow reveal">Who it's for</p>
+        <h2 class="section__title reveal">Made for crate-diggers.</h2>
+        <ul class="audience__list">
+          <li>Crate-diggers who read the liner notes</li>
+          <li>Producers tired of context-free sounds</li>
+          <li>Students and educators of music history</li>
+          <li>Anyone working beyond the dancefloor</li>
+          <li>Listeners who want the story, not just the sample</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== CLOSING CTA ============================== -->
+    <section class="section cta" id="get">
+      <div class="container cta__inner">
+        <h2 class="cta__title reveal">Play your way<br />through music history.</h2>
+        <p class="cta__sub reveal"><span class="brand">Current</span> is coming to iOS.</p>
+        <div class="cta__actions reveal">
+          <!-- TODO: replace href with the live Apple App Store URL when available -->
+          <a class="appstore-badge appstore-badge--lg" href="#get" data-appstore aria-label="Download Current on the Apple App Store">
+            <img src="/assets/img/app-store-badge.svg" alt="Download on the App Store" width="189" height="63" />
+          </a>
+        </div>
+        <p class="cta__note reveal">Coming soon to the Apple App Store.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand footer__mark">clectric.audio</span>
+        <p class="footer__tag">
+          For open-source SynthDIY hardware, visit <a class="brand" href="https://clectric.diy">clectric.diy</a>.
+        </p>
+      </div>
+    </div>
+    <div class="container footer__legal">
+      <span>© <span id="year">2026</span> <span class="brand">clectric.audio</span></span>
+      <span>Start with the scene.</span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/graph.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
